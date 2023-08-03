@@ -1,0 +1,139 @@
+/* Reset some default styles */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* General Styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color:#080c00a8;
+    color: #fff;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f9c90e;
+  }
+  
+  section {
+    padding: 80px 0;
+    text-align: center;
+  }
+  
+  #hero::before {
+    background-image: url('images/938445.webp');
+    background-size: cover;
+    background-position: center;
+    content: ''; /* Generate the pseudo-element's content */
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 500px;
+    z-index: -1;
+    opacity: 0.86 ; /* Add the desired overlay color with some transparency */
+  }
+  #hero {
+    /* background-image: url('images/938445.webp'); */
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    overflow: 0.7;
+    
+  }
+  
+  .hero-content {
+    color: #000000;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 228px;
+    left: 667px;
+}
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f9c90e;
+    color: #333;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #f5b20c;
+  }
+  
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .flexii{
+    display: flex;
+    flex-direction:row;
+    justify-content:space-around;
+  }
+  .box{
+    display:flex;
+    flex-direction: row;
+    height: 150px;
+    width: 150px;
+    border: solid black 2px;
+  }
+  #one{
+    background-image: url('images/healthy-lifestyle-meditating-nature.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #two{
+    background-image: url('images/butterfly-colorful-glowing-fantasy-artwork-books-4k_1540750766.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #three{
+    background-image: url('images/images.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+  }
+  
+  #four{
+    background-image: url('images/images\ \(1\).jpg');
+    background-size: cover;
+    background-position: center;
+    width: 150px;
+    height: 150px;
+  }
+  
