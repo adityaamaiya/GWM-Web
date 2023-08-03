@@ -1,0 +1,61 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  /* background-image: url('https://source.unsplash.com/collection/190727/1600x900'); */
+  /* background-image: url('https://picsum.photos/1600/900'); */
+  background-image: url('https://wallpapercave.com/wp/wp2921804.jpg');
+  background-repeat:no-repeat;
+  background-size:1518px 949px;
+  
+  
+
+  /* background-color: yellow; */
+}
+.container{
+  background: #01010147;
+  width:262px;
+  margin-top: 106px;
+  padding-top: 17px;
+  border: 2px solid black;
+ /* background-color: #01010147; */
+
+}
+
+.button {
+  padding: 14px;
+  width:50px;
+  box-shadow: 2px 2px black;
+  border:2px solid black;
+  border-radius:6px;
+  cursor:pointer;
+}
+#btn8{
+  padding-left:20px;
+}
+#btn14{
+  padding-left:20px;
+}
+#btn16{
+  padding-left:20px;
+}
+
+.row {
+  /* margin: 20px; */
+}
+
+button {
+  font-size:19px;
+  margin: 6px 3px;
+}
+ .row input{
+   color:white;
+   background-color:black;
+   border:2px solid white ;
+   border-radius:5px;
+   margig : 0px 0px 0px 0px;
+   padding :10px 9px;
+   width:227px;
+   font-size:20px; }
